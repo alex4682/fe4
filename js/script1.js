@@ -13,7 +13,7 @@ gallery.addEventListener("click", (event) => {
         const modalDivs = backdrop.querySelectorAll("div");
         modalDivs.forEach(div => div.style.display = 'none');
 
-        const modalDivToShow = backdrop.querySelector(`div[id='${index}']`);
+        const modalDivToShow = backdrop.querySelector(`div[id='${index}`);
         modalDivToShow.style.display = 'block';
     }
 });

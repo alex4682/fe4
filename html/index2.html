@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style2.css" />
+  </head>
+  <body>
+    <!-- Створіть слайдер на сторінці, який показує зображення. При переміщенні
+    слайдера виконуйте деякі дії, наприклад, змінюйте розмір зображення.
+    Використайте debounce для того, щоб ці дії виконувалися не занадто часто при
+    швидкому переміщенні слайдера. -->
+
+    <div class="slider">
+      <input type="range" min="1" max="100" value="50" class="slider__input" />
+      <img src="https://via.placeholder.com/300x300" class="slider__image" />
+    </div>
+    <div id="box"></div>
+    <script src="
+https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
+"></script>
+    <script src="../js/script2.js"></script>
+  </body>
+</html>
