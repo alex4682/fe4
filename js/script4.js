@@ -100,14 +100,15 @@ loadBookmarks();
 
 // Завдання 4: Форма для логіна
 const loginForm = document.querySelector("#loginForm");
-
 function saveUser() {
     const user = {
-        login: document.querySelector("#login").value,
-        password: document.querySelector("#password").value,
+        login: "alex",
+        password: "1234",
     };
     localStorage.setItem("user", JSON.stringify(user));
 }
+
+saveUser();
 
 loginForm.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -122,3 +123,4 @@ loginForm.addEventListener("submit", (e) => {
         alert("Невірний логін або пароль");
     }
 });
+
