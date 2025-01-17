@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 24px;
+}
+
+#happy {
+    display: none;
+    font-size: 48px;
+    color: red;
+    margin-top: 20px;
+}
